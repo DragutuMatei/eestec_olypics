@@ -1,0 +1,178 @@
+/* General Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fbf5f3; /* Light beige background */
+  color: #000022; /* Dark navy blue for text */
+}
+
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(
+    0,
+    0,
+    0,
+    0.3
+  ); /* Semi-transparent background for glassmorphism */
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.8); /* White card with transparency */
+  padding: 30px 40px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  color: #000022;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-field {
+  width: 93% !important;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #000022;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #fbf5f3;
+  color: #000022;
+}
+
+.input-field:focus {
+  border-color: #e28413; /* Focus on orange */
+  outline: none;
+}
+
+/* Primary Button */
+.btn-primary {
+  width: 100%; /* Ensures button takes full width */
+  padding: 12px;
+  background-color: #e28413; /* Orange button */
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #c42847; /* Hover color: deep red */
+}
+
+.btn-primary i {
+  margin-right: 10px;
+}
+
+/* Register Link */
+.register-link {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register-link a {
+  color: #e28413; /* Orange link */
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.register-link a:hover {
+  color: #de3c4b; /* Red hover color */
+}
+
+
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FBF5F3;
+    color: #000022;
+  }
+  
+  /* Registration Container */
+  .register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+  }
+  
+  .register-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #000022;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields and Select */
+  .input-field,
+  .select-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #000022;
+    border-radius: 10px;
+    font-size: 1rem;
+    background-color: #FBF5F3;
+    color: #000022;
+  }
+  
+  .input-field:focus,
+  .select-field:focus {
+    border-color: #E28413;
+    outline: none;
+  }
+  
+  /* Primary Button */
+  .btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: #E28413;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #C42847;
+  }
+  
+  /* Label */
+  .label {
+    font-size: 1rem;
+    color: #000022;
+    display: block;
+    margin: 10px 0 5px;
+  }
+  

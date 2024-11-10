@@ -1,0 +1,79 @@
+/* Main Container */
+.student-class-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Class Card */
+  .class-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 15px;
+    width: 350px;
+    max-width: 90%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    color: #000022;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Homework Description */
+  .homework-description {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #000022;
+  }
+  
+  /* Download Link */
+  .download-link {
+    color: #E28413;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  
+  .download-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Deadline */
+  .homework-deadline {
+    color: #C42847;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* File Input and Button */
+  .file-input {
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .submit-button, .late-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #DE3C4B;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #C42847;
+  }
+  
+  .late-button {
+    background-color: #C42847;
+    cursor: not-allowed;
+    opacity: 0.8;
+  }
+  

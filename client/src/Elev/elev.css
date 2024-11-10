@@ -1,0 +1,72 @@
+/* General Body Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fbf5f3;
+  color: #000022;
+}
+
+/* Main Container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* User Card */
+.user-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 20px 30px;
+  border-radius: 15px;
+  width: 350px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* User Info */
+.user-info {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #000022;
+}
+
+/* Class List */
+.class-list {
+  list-style: none;
+  padding: 0;
+}
+
+.class-item {
+  background-color: #e28413;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  transition: transform 0.2s ease;
+  color: #fbf5f3;
+  text-decoration: none;
+}
+
+.class-item:hover {
+  transform: scale(1.05);
+}
+
+/* Button */
+.logout-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #de3c4b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c42847;
+}
